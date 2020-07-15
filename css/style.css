@@ -1,24 +1,36 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.grid {
-    display: grid;
-    
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "items";
-    grid-gap: 1.5vw;
+body {
+    background-image: linear-gradient(120deg,  #fcfcfc, #d1d1d1);
     min-height: 100vh;
-    min-width: auto;
+    
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+    min-height: 100vh;
+}
+.item {
+    grid-column: 3 / span 1;
+    grid-row: 2 / 3;
 }
 
-.items {
-    grid-area: 4 / 6 ;
-   
-    font-family: 'Libre Baskerville', serif;
-    background-color: hotpink;
-} 
+.input {
+    border: none;
+    height: 50px;
+}
 
-.word:hover {
-    color: goldenrod;
+input[type=text] {
+    font-family: 'Cinzel', serif;
+}
+
+input[type=submit]{
+    font-family: 'Cinzel', serif;
+    border: none;
+    
 }
