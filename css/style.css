@@ -27,17 +27,21 @@ body {
     height: 100%;
     width: 100%;
     padding-top: 20px;
+    
 }
 
 input[type=text] {
     font-family: 'Cinzel', serif;
-    justify-content: center;
+    
+    text-align: center;
+    
 }
 
 input[type=submit]{
     font-family: 'Cinzel', serif;
     border: none;
-    
+    justify-content: center;
+    margin-left: 45%;
 }
 .item-a {
     width: 100%;
@@ -55,6 +59,7 @@ input[type=submit]{
     height: 100%;
     pointer-events: none;
     border-bottom: 0px solid black;
+    box-shadow: 0px 0px 100px -10px slategrey;
 }
 
 .item-a label::after {
@@ -75,4 +80,34 @@ input[type=submit]{
     transition: all 0.3s ease;
 }
 
-.
+.item-b {
+    
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: "Libre";
+}
+
+.alphabet {
+    font-size: 20vmax;
+    color: #fcfcfc;
+    height: 100%;
+    text-align: center;
+    
+}
+.alphabet:hover {
+   color: darkgrey; 
+    
+}
+
+.word h2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.type {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
