@@ -11,11 +11,11 @@ this project depended on css styling.
  below is the wireframe I drew.
 I strayed from the wire frame but happy with how it ended up.
 
-![screenshot](https://imgur.com/UtdsA4x)
+[screenshot](https://imgur.com/UtdsA4x)
 
 this is final result.
 
-![finalresult](https://imgur.com/STvCx72)
+[finalresult](https://imgur.com/STvCx72)
 
 biggest challenges were to select an api and work with it.
 
