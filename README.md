@@ -2,7 +2,7 @@
 ## api. 
 
 	In this project I demonstrate profiency not only with jQuery but with css as well.
-this project dependant. 
+this project depended on css styling.
 
 	the first steps were to establish structure in html. once that was set up you can develop the constants in jQuery.
 
@@ -25,4 +25,4 @@ goals accomplished: highly stylized webpage. minimal look. api data retrieval. f
 Future Goals: to personalize the website a bit further. adding memory storage maybe even a game
 where people who learn words. rankings.profiles.
 
-deploy (https://koalacodes.github.io/fun-dictionary/)
+[deploy link ](https://koalacodes.github.io/fun-dictionary/)
