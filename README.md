@@ -17,9 +17,12 @@ this is final result.
 
 ![finalresult](https://imgur.com/STvCx72)
 
+biggest challenges were to select an api and work with it.
 
 goals accomplished: highly stylized webpage. minimal look. api data retrieval. functional apps.
 
 
 Future Goals: to personalize the website a bit further. adding memory storage maybe even a game
 where people who learn words. rankings.profiles.
+
+deploy (https://koalacodes.github.io/fun-dictionary/)
